@@ -1,0 +1,87 @@
+{
+  "provider": "heuristic",
+  "model": "regex-baseline",
+  "emails": 20,
+  "field_slots": 120,
+  "overall_field_accuracy": 0.9167,
+  "fully_correct_emails": 14,
+  "per_field_accuracy": {
+    "business_name": 0.85,
+    "industry": 0.9,
+    "state": 1.0,
+    "employee_count": 0.8,
+    "annual_revenue": 1.0,
+    "coverage_types": 0.95
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "id": "e08",
+      "field": "employee_count",
+      "expected": 10,
+      "got": 2
+    },
+    {
+      "id": "e09",
+      "field": "business_name",
+      "expected": "Studio Aurora",
+      "got": null
+    },
+    {
+      "id": "e09",
+      "field": "employee_count",
+      "expected": 2,
+      "got": null
+    },
+    {
+      "id": "e16",
+      "field": "business_name",
+      "expected": "Coastal Roofing Partners",
+      "got": null
+    },
+    {
+      "id": "e16",
+      "field": "employee_count",
+      "expected": 21,
+      "got": null
+    },
+    {
+      "id": "e17",
+      "field": "industry",
+      "expected": "personal_services",
+      "got": null
+    },
+    {
+      "id": "e17",
+      "field": "employee_count",
+      "expected": 15,
+      "got": null
+    },
+    {
+      "id": "e18",
+      "field": "business_name",
+      "expected": "Pinecrest Tax & Accounting",
+      "got": null
+    },
+    {
+      "id": "e19",
+      "field": "industry",
+      "expected": "construction_trades",
+      "got": null
+    },
+    {
+      "id": "e19",
+      "field": "coverage_types",
+      "expected": [
+        "general_liability",
+        "commercial_auto"
+      ],
+      "got": [
+        "workers_comp",
+        "general_liability",
+        "commercial_auto"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-06T11:05:34+00:00"
+}

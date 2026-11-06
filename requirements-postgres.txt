@@ -1,0 +1,2 @@
+# Optional: use Postgres / Supabase instead of the default SQLite file.
+psycopg[binary]>=3.1

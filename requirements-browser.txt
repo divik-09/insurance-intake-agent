@@ -1,0 +1,3 @@
+# Optional: real-browser carrier-portal automation.
+# After installing, run:  playwright install chromium
+playwright>=1.44
